@@ -1,0 +1,997 @@
+[
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bir gen için saf, heterozigot da hibriddir.",
+        "output": "Analiz: Öğrenci, 'saf' ve 'hibrid' terimlerini kullanarak kavramları temel düzeyde doğru eşleştirmiştir. Ancak, doğru cevapta yer alan genotipik gösterimler (AA, Aa), allel tanımları ve dominant/resesif etkileşimi gibi teknik detaylara hiç değinmemiştir. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez sırasında oksijen üretilir.",
+        "output": "Analiz: Öğrenci cevabı, soruda zaten verilen bilgiyi (oksijen üretimi) tekrar etmekte olup sorunun özü olan 'kaynak' (su/fotoliz) kısmına hiç cevap vermemektedir. Puan: 0.10"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis hücrelerin kontrollü şekilde ölümüdür ve hasar görmüş hücreler bu yolla silinir.",
+        "output": "Analiz: Öğrenci, apoptosisin kontrollü bir ölüm olduğunu ve hasarlı hücrelerin temizlenmesi işlevini doğru şekilde ifade etmiştir. Programlı ölüm tanımı ve mekanizmanın amacı büyük oranda karşılanmıştır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar hücrelerde protein yaparlar.",
+        "output": "Analiz: Öğrenci, ribozomun ana işlevini (protein sentezi) doğru belirtmiştir ancak mRNA okuma, tRNA etkileşimi ve amino asit birleştirme gibi işlemsel detaylara değinmemiştir. Temel işlev doğru ifade edildiği için. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA replikasyonunun en önemli enzimi olarak hareket eder.",
+        "output": "Analiz: Öğrenci enzimin önemini vurgulamış ancak spesifik görevini (nükleotid ekleme, sentezleme, hata düzeltme) açıklamamıştır. Cevap teknik bir açıklamadan ziyade genel bir yorum niteliğindedir. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA zinciri boyunca ilerleyerek yeni nükleotidleri ekleyerek DNA zinciri sentezleme işlemini yapıyor.",
+        "output": "Analiz: Öğrenci, enzimin nükleotid ekleme ve zincir sentezleme görevini doğru şekilde açıklamıştır. Hata düzeltme özelliğine değinmemiş olsa da ana işleyişi kavramıştır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, besin zincirinde seviyelere göre enerji dağılımını gösterir.",
+        "output": "Analiz: Öğrenci piramidin temel amacını (enerji dağılımı/trofik seviyeler) belirtmiş ancak piramidin şeklini belirleyen %90 enerji kaybı kuralına değinmemiştir. Tanım çok genel kalmıştır. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bir gen için iki aynı allele sahip (AA, aa); heterozigot iki farklı allelе sahip (Aa), heterozigotlarda dominant allelel fenotipte görülür.",
+        "output": "Analiz: Öğrenci hem tanımları doğru yapmış, hem sembolik örnekleri (AA, aa, Aa) kullanmış hem de baskınlık durumunu belirtmiştir. Doğru cevapla neredeyse tam bir anlamdaşlık içindedir. Yüksek. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Programlı hücre ölümü apoptosis olarak adlandırılır ve organizmada önemli bir işlev görür.",
+        "output": "Analiz: Öğrenci apoptosisin 'programlı hücre ölümü' olduğu bilgisini doğru vermiştir. Ancak hasar görmüş hücrelerin imhası gibi spesifik kullanım alanlarına ve ne zaman meydana geldiğine dair ayrıntı vermemiştir. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri, hücrelerde bazı metabolik işlemler yapar.",
+        "output": "Analiz: Öğrenci cevabı çok yüzeyseldir. ATP üretimi, enerji merkezi olması, çift membranlı yapı, DNA/ribozom varlığı gibi hiçbir ayırt edici özelliğe değinilmemiştir. Metabolik işlem ifadesi doğru olsa da yetersizdir. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji akışı piramidi, ekosistemdeki trofik seviyelerde depo edilen enerji miktarını gösterir. Üreticiyle başlayıp her seviyeye çıkıldıkça enerji %90 oranında azalır.",
+        "output": "Analiz: Öğrenci, doğru cevaptaki tüm ana unsurları (trofik seviyeler, enerji miktarı, üretici başlangıcı ve %90 azalma) eksiksiz olarak ifade etmiştir. Doğru cevapla anlam örtüşmesi tamdır. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler aktif bölgeleri aracılığıyla substratlarla kompleks oluşturur, reaksiyonu kataliz eder ve ürün açığa çıkması ile enzim tekrar serbest hale gelir.",
+        "output": "Analiz: Öğrenci, substrat-enzim kompleksi, katalizör görevi, ürün oluşumu ve enzimin serbest kalması gibi tüm süreci bilimsel olarak doğru ve akıcı bir şekilde ifade etmiştir. Puan: 0.98"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Zar yapısı, belirli maddelerin sadece geçişine izin veren bir özelliğe sahiptir.",
+        "output": "Analiz: Öğrenci seçici geçirgenliğin tanımını yapmış ancak bu özelliğin 'nasıl' sağlandığına dair mekanizmalara (protein kanalları, taşıyıcı proteinler, fosfolipitler) değinmemiştir. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis meydana gelip hasar görmüş hücreler yok olur.",
+        "output": "Analiz: Öğrenci apoptosisin sonucunu (hasarlı hücrelerin yok olması) belirtmiş ancak 'programlı/kontrollü ölüm' tanımını eksik bırakmıştır. Mekanizmanın ne olduğu tam açıklanmadığı için Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Protein kanalları ve taşıyıcı proteinleri seçici geçirgenliğe yardımcı olur.",
+        "output": "Analiz: Öğrenci seçici geçirgenliği sağlayan ana yapısal unsurları (protein kanalları ve taşıyıcı proteinler) doğru tespit etmiştir. Fosfolipit etkisinden bahsedilmemiş olsa da teknik mekanizma büyük oranda karşılanmıştır. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen kloroplastlarda üretilir.",
+        "output": "Analiz: Öğrenci oksijenin üretildiği organeli (kloroplast) doğru belirtmiş olsa da sorunun asıl hedefi olan oksijenin moleküler kaynağına (su/fotoliz) cevap vermemiştir. Bilgi yüzeysel kaldığı için tam puan alamaz. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Programlı hücre ölümü apoptosis olarak adlandırılır ve organizmada önemli bir işlev görür.",
+        "output": "Analiz: Öğrenci apoptosisin tanımını (programlı hücre ölümü) tam ve doğru yapmıştır. İşlevsel önemine genel olarak değinmiş ancak hasarlı hücrelerin temizlenmesi gibi detaylara girmemiştir. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Hücre çevirimi, hasar görmüş hücrelerin öldürülme işlemidir ve organizmada düzen sağlamaya yardımcı olur.",
+        "output": "Analiz: Öğrenci apoptosis yerine 'hücre çevirimi' terimini kullanmış (sorudaki parantez içi ifadeyi tercih etmiş) ve işlevi doğru açıklamıştır. Ancak 'programlı ölüm' teknik terimini kullanmaması ve tanımı biraz dolaylı yapması skoru ve puanı bir miktar düşürmüştür. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondriler hücrelerin enerji fabrikaları olarak adlandırılır ve ATP üretim işlevi vardır.",
+        "output": "Analiz: Öğrenci mitokondrinin en temel özelliğini ve işlevini (ATP üretimi/enerji fabrikası) doğru ve yaygın bir benzetmeyle ifade etmiştir. Yapısal detaylara (membran, DNA) girmemiş olsa da temel tanım başarılıdır. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis programlı hücre ölümüdür.",
+        "output": "Analiz: Öğrenci apoptosisin en kısa ve öz tanımını doğru vermiştir. Sorunun 'ne zaman meydana gelir' kısmına cevap vermediği için puan kırılmıştır ancak tanım doğru olduğu için Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz DNA sentezini sağlar.",
+        "output": "Analiz: Öğrenci enzimin temel görevini (DNA sentezi) doğru belirtmiştir. Mekanizma detayları (nükleotid ekleme, hata düzeltme) eksik olsa da işlevsel tanım doğrudur. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri sadece enerji üretimi yapan bir yapıdır.",
+        "output": "Analiz: Öğrenci enerji üretimi işlevini doğru belirtmiş ancak 'sadece' ifadesini kullanarak organelin diğer özelliklerini (DNA, ribozom, membran yapısı) dışlamıştır. Cevap çok kısıtlı ve detaydan yoksundur. Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Protein kanalları ve taşıyıcı proteinleri seçici geçirgenliğe yardımcı olur.",
+        "output": "Analiz: Öğrenci, seçici geçirgenliği sağlayan temel mekanik unsurları (protein kanalları ve taşıyıcı proteinler) doğru tespit etmiştir. Fosfolipitlerin rolüne değinilmemiş olsa da ana mekanizma belirtilmiştir. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz deoksinükleotidleri tek tek ekleyerek DNA zincirini sentezler ve hata tamir işlevi de vardır.",
+        "output": "Analiz: Öğrenci, enzimin hem nükleotid ekleme/sentezleme görevini hem de hata düzeltme işlevini eksiksiz ve doğru bir şekilde ifade etmiştir. Doğru cevapla yüksek oranda semantik örtüşme mevcuttur. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis üreme hücrelerinde olur.",
+        "output": "Analiz: Öğrenci sorunun sadece ilk kısmına (nerede/ne zaman gerçekleştiği) doğru cevap vermiş, ancak hangi hücrelerin oluştuğuna ve kromozom sayısına dair bilgi vermemiştir. Eksik bilgi nedeniyle Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji akışı piramidi, ekosistemdeki trofik seviyelerde depo edilen enerji miktarını gösterir. Üreticiyle başlayıp her seviyeye çıkıldıkça enerji %90 oranında azalır.",
+        "output": "Analiz: Öğrenci, doğru cevaptaki tüm anahtar bilgileri (trofik seviyeler, enerji miktarı, üreticiden başlama ve %90 azalma) doğru ve eksiksiz bir şekilde belirtmiştir. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Hücre çevirimi, hasar görmüş hücrelerin öldürülme işlemidir ve organizmada düzen sağlamaya yardımcı olur.",
+        "output": "Analiz: Öğrenci apoptosisin işlevini (hasarlı hücrelerin ölümü ve düzen sağlama) doğru kavramıştır ancak 'programlı/kontrollü ölüm' gibi temel bir tanımı tam yapmamıştır. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: AA ve aa homozigot, Aa ise heterozigot genotiptir.",
+        "output": "Analiz: Öğrenci teknik tanımlar yerine doğrudan genotipik örnekler üzerinden doğru bir eşleştirme yapmıştır. Kavramsal olarak doğru olsa da baskınlık/çekiniklik etkileşimine değinmediği için puan kırılmıştır. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, besin zincirinde seviyelere göre enerji dağılımını gösterir.",
+        "output": "Analiz: Öğrenci piramidin amacını genel olarak doğru ifade etmiştir. Ancak piramidin karakteristik özelliği olan enerji kaybı oranına ve yapısal detaylara değinmemiştir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis bölünmesi haploit hücreler üretir.",
+        "output": "Analiz: Öğrenci sadece sonuç hücrelerinin niteliğini (haploit) belirtmiş, nerede gerçekleştiği ve kaç hücre oluştuğu gibi temel kısımları atlamıştır. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, cinsiyet hücrelerinde meydana gelir ve dört haploit hücre oluşturur.",
+        "output": "Analiz: Öğrenci hem gerçekleştiği yeri hem de oluşan hücre sayısını ve tipini (dört haploit) doğru belirtmiştir. Mekanizma detayları eksik olsa da sorunun iki temel ayağına da yanıt verilmiştir. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez sırasında oksijen üretilir.",
+        "output": "Analiz: Öğrenci soruda verilen bilgiyi tekrar etmiş ancak oksijenin kaynağına (su/fotoliz) dair hiçbir cevap vermemiştir. Puan: 0.05"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen kloroplastlarda üretilir.",
+        "output": "Analiz: Öğrenci oksijenin üretildiği organeli (kloroplast) doğru belirtmiştir ancak sorunun asıl odak noktası olan oksijenin moleküler kaynağına (su/fotoliz) dair bir bilgi vermemiştir. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler, hücresel reaksiyonları kontrol eden proteinlerdir.",
+        "output": "Analiz: Öğrenci enzimlerin kimyasal yapısını (protein) ve genel işlevini doğru belirtmiştir. Ancak soruda istenen 'çalışma mekanizması' (kompleks oluşumu, aktif bölge, ürün dönüşümü) detaylandırılmamıştır. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri sadece enerji üretimi yapan bir yapıdır.",
+        "output": "Analiz: Öğrenci temel işlevi (enerji üretimi) doğru belirtmiş olsa da 'sadece' ifadesiyle organelin yapısal özelliklerini (DNA, ribozom, çift zar) göz ardı etmiştir. Tanım çok kısıtlıdır ve Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar, mRNA üzerindeki genetik kodu okuyup protein yapımını sağlarlar.",
+        "output": "Analiz: Öğrenci, ribozomun mRNA okuma ve protein sentezleme rolünü net ve doğru bir şekilde ifade etmiştir. tRNA ve alt birim detayları eksik olsa da temel görev tam karşılanmıştır. Yüksek. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Protein kanalları ve taşıyıcı proteinleri seçici geçirgenliğe yardımcı olur.",
+        "output": "Analiz: Öğrenci, seçici geçirgenlikten sorumlu olan ana protein yapılarını doğru belirtmiştir. Fosfolipit etkisi ve mekanizmanın detaylı açıklaması eksik olsa da anahtar kavramlar verilmiştir. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Zar yapısındaki proteinler ve fosfolipitler, seçici geçirgenliği sağlarlar.",
+        "output": "Analiz: Öğrenci, hem proteinlerin hem de fosfolipitlerin seçici geçirgenlikteki rolünü belirterek doğru cevaptaki temel bileşenleri kapsamıştır. Mekanizmanın işleyiş detayları az olsa da bileşenler doğrudur. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzim ve substrat birleşir, kompleks oluşur, sonra ürün açığa çıkar ve enzim tekrar boşa çıkar.",
+        "output": "Analiz: Öğrenci, enzim-substrat etkileşimini, kompleks oluşumunu ve reaksiyon sonrası enzimin değişmeden serbest kalmasını aşamalı olarak doğru açıklamıştır. 'Aktif bölge' terimi eksik olsa da süreç doğrudur. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz deoksinükleotidleri tek tek ekleyerek DNA zincirini sentezler ve hata tamir işlevi de vardır.",
+        "output": "Analiz: Öğrenci, enzimin hem polimerizasyon (sentez) hem de hata düzeltme (tamir) görevlerini eksiksiz ifade etmiştir. Doğru cevapla anlam örtüşmesi çok yüksektir ve. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA replikasyonunu kataliz eder.",
+        "output": "Analiz: Öğrenci, enzimin rolünü biyolojik olarak doğru ancak çok genel bir ifadeyle (kataliz) belirtmiştir. Nükleotid ekleme ve hata düzeltme gibi spesifik görevler belirtilmemiştir. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz deoksinükleotidleri tek tek ekleyerek DNA zincirini sentezler ve hata tamir işlevi de vardır.",
+        "output": "Analiz: Öğrenci cevabı, hem yeni zincir sentezi (nükleotid ekleme) hem de hata düzeltme (proofreading) işlevini kapsadığı için doğru cevapla tam uyumludur. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler substrat ile birleşir, reaksiyonu hızlandırır ve ürün açığa çıkar.",
+        "output": "Analiz: Öğrenci, enzim-substrat etkileşimini, reaksiyonun hızlandırılmasını ve ürün oluşumunu doğru bir akışla ifade etmiştir. 'Aktif bölge' ve 'enzimin yapısının değişmemesi' gibi detaylar eksik olsa da temel mekanizma kavranmıştır. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis hücrelerin yapılan bir kontrol mekanizmasıdır.",
+        "output": "Analiz: Öğrenci, apoptosisin bir kontrol mekanizması olduğunu belirterek genel bir doğruya değinmiş olsa da, kavramın özü olan 'programlı ölüm' tanımını ve 'ne zaman/neden' meydana geldiği bilgisini vermemiştir. Tanım yetersizdir ve Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot, aynı allelleri taşır (AA, aa). Heterozigot, farklı allelleri taşır (Aa).",
+        "output": "Analiz: Öğrenci her iki kavramı da teknik örneklerle (AA, aa, Aa) birlikte doğru tanımlamıştır. Fenotip üzerindeki baskınlık/çekiniklik etkisine değinilmemiş olsa da genotip tanımları tamdır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler, reaksiyonları başlatmadığı halde onları hızlandırırlar.",
+        "output": "Analiz: Öğrenci enzimlerin genel bir katalizör özelliğinden bahsetmiş ancak soruda istenen 'çalışma mekanizması' (substrat etkileşimi, kompleks, ürün oluşumu) hakkında bilgi vermemiştir. Bilgi çok yüzeyseldir. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri sadece enerji üretimi yapan bir yapıdır.",
+        "output": "Analiz: Öğrenci temel işlevi doğru belirtse de 'sadece' ifadesini kullanarak organelin yapısal ve genetik özelliklerini (DNA, ribozom, çift zar) kapsam dışı bırakmıştır. Tanım oldukça kısıtlıdır. Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar, mRNA üzerindeki genetik kodu okuyup protein yapımını sağlarlar.",
+        "output": "Analiz: Öğrenci, ribozomun mRNA okuma ve protein sentezleme işlevini doğru ve net bir şekilde ifade etmiştir. tRNA ve yapısal alt birim detayları eksik olsa da rolü tam karşılanmıştır. Yüksek. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bireylerde gen çiftleri aynı, heterozigot da farklıdır.",
+        "output": "Analiz: Öğrenci, 'gen çiftleri' (allel) üzerinden kavramsal farkı doğru ifade etmiştir. Teknik gösterimler ve baskınlık durumu eksik kalsa da temel mantık doğrudur. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen kloroplastlarda üretilir.",
+        "output": "Analiz: Öğrenci oksijenin üretildiği yeri (organeli) doğru bilse de sorunun asıl sorduğu 'kaynak molekül' (su) ve 'mekanizma' (fotoliz) kısımlarına cevap vermemiştir. Bu nedenle puan düşüktür. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler substrat ile birleşir, reaksiyonu hızlandırır ve ürün açığa çıkar.",
+        "output": "Analiz: Öğrenci, enzim-substrat kompleksinin oluşumu ve ürün eldesi aşamalarını doğru sırayla belirtmiştir. Anlamsal örtüşme yüksektir (. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Seçici geçirgenlik, zar üzerindeki protein kanalları ile kontrol edilir.",
+        "output": "Analiz: Öğrenci, seçici geçirgenliği sağlayan ana bileşenlerden biri olan protein kanallarına doğru vurgu yapmıştır. Taşıyıcı proteinler ve fosfolipitlerin rolüne değinilmemiş olsa da mekanizmanın temelini belirtmiştir. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Protein kanalları ve taşıyıcı proteinleri seçici geçirgenliğe yardımcı olur.",
+        "output": "Analiz: Öğrenci, seçici geçirgenliğin sağlanmasında rol oynayan ana protein yapılarını doğru belirtmiştir. Ancak proteinlerin işleyiş biçimi ve fosfolipitlerin rolü gibi detaylara değinmemiştir. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA zinciri boyunca ilerleyerek yeni nükleotidleri ekleyerek DNA zinciri sentezleme işlemini yapıyor.",
+        "output": "Analiz: Öğrenci, DNA polimerazın nükleotid ekleme ve sentez yapma görevini net bir şekilde açıklamıştır. Hata düzeltme işlevinden bahsedilmemiştir ancak temel görev çok iyi tanımlanmıştır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar, hücrelerde protein sentezinin meydana geldiği yerlerdir.",
+        "output": "Analiz: Öğrenci ribozomun en temel tanımını ve görevini (sentez yeri olması) doğru yapmıştır. Okuma ve birleştirme gibi mekanizma detayları eksik olsa da temel ifade tamdır. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, cinsiyet hücrelerinde meydana gelir ve dört haploit hücre oluşturur.",
+        "output": "Analiz: Öğrenci, sorunun her iki kısmına (yer ve sonuç hücreleri) doğru ve teknik terimleri kullanarak cevap vermiştir. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar protein sentezine katılan organellerdir.",
+        "output": "Analiz: Öğrenci ribozomun işlevini genel düzeyde doğru belirtmiştir. Ancak sentezin 'yeri' olması ve çalışma mekanizması detaylandırılmamıştır. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, bir ekosistemdeki belirli seviyelerde kaç birimlik enerji olduğunu gösterir.",
+        "output": "Analiz: Öğrenci enerji piramidinin temel amacını doğru kavramıştır. Ancak enerjinin her seviyede azaldığı ve piramit şeklinin nedenine dair kritik bilgileri vermemiştir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Protein kanalları ve taşıyıcı proteinleri seçici geçirgenliğe yardımcı olur.",
+        "output": "Analiz: Öğrenci mekanizmanın mimarlarını (proteinler) doğru isimlendirmiş, fakat bu proteinlerin ne yaptığına dair fiili açıklama yapmamıştır. Anlamsal benzerlik oldukça yüksektir. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bir gen için iki aynı allele sahip (AA, aa); heterozigot iki farklı allelе sahip (Aa), heterozigotlarda dominant allelel fenotipte görülür.",
+        "output": "Analiz: Öğrenci hem tanımları doğru yapmış, hem sembolik gösterimleri (AA, aa, Aa) kullanmış hem de dominant allelin fenotipteki etkisini belirtmiştir. Doğru cevapla neredeyse tam örtüşmektedir. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bireylerde gen çiftleri aynı, heterozigot da farklıdır.",
+        "output": "Analiz: Öğrenci temel farkı 'aynı' ve 'farklı' kavramları üzerinden doğru özetlemiştir. Teknik detaylar ve baskınlık durumu eksik olsa da mantık doğrudur. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot sadece bir çeşit gamet oluştururken, heterozigot iki çeşit gamet oluşturur.",
+        "output": "Analiz: Öğrenci, genotiplerin tanımını yapmak yerine bu genotiplerin sonuçlarından (gamet çeşitliliği) bahsetmiştir. Bilgi biyolojik olarak doğru olsa da doğrudan bir tanım içermediği için Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis programlı hücre ölümüdür.",
+        "output": "Analiz: Öğrenci, apoptosisin en temel tanımını (programlı hücre ölümü) doğru bir şekilde yapmıştır. Ancak sorunun 'ne zaman/neden' meydana geldiğine dair detaylara (hasar, enfeksiyon, gelişimsel ihtiyaç) değinmemiştir. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler, reaksiyonları başlatmadığı halde onları hızlandırırlar.",
+        "output": "Analiz: Öğrenci enzimlerin sadece genel bir fonksiyonel tanımını yapmıştır. Sorunun özü olan 'çalışma mekanizması'na (substrat birleşmesi, aktif bölge, ürün oluşumu) dair hiçbir açıklama sunmamıştır. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: AA ve aa homozigot, Aa ise heterozigot genotiptir.",
+        "output": "Analiz: Öğrenci teorik tanımlar yerine doğrudan genetik semboller üzerinden doğru bir örneklendirme yapmıştır. Kavramları doğru eşleştirmiştir ancak fenotip üzerindeki etkisinden bahsetmemiştir. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot sadece bir çeşit gamet oluştururken, heterozigot iki çeşit gamet oluşturur.",
+        "output": "Analiz: Öğrenci genotipleri tanımlamak yerine bu genotiplerin mayoz bölünme sonucundaki dolaylı bir sonucuna (gamet çeşitliliği) değinmiştir. Bilgi doğru olsa da sorulan tanımı doğrudan karşılamamaktadır. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, bir ekosistemdeki belirli seviyelerde kaç birimlik enerji olduğunu gösterir.",
+        "output": "Analiz: Öğrenci enerji piramidinin temel işlevini (enerji miktarını gösterme) doğru kavramıştır. Ancak enerjinin yukarı doğru azalma prensibi ve piramit formunun nedeni eksiktir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen kloroplastlarda üretilir.",
+        "output": "Analiz: Öğrenci oksijenin üretim yerini (organel) doğru bilse de sorunun asıl odak noktası olan 'kaynak molekül' (su) ve 'fotoliz' olayına yanıt vermemiştir. Cevap yüzeysel kalmıştır. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Besin zincirinde enerji miktarı her seviyede azalır ve bunu piramit gösterir.",
+        "output": "Analiz: Öğrenci enerji piramidinin en karakteristik özelliğini (yukarı doğru enerji azalması) doğru yakalamıştır. Tanım doğru cevaba göre daha kısa olsa da ana fikri yansıtmaktadır. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot ve heterozigot, genlerin aynı ya da farklı olmasına göre sınıflandırılır.",
+        "output": "Analiz: Öğrenci temel sınıflandırma kriterini (allel benzerliği/farklılığı) doğru tespit etmiştir. Ancak hangi durumun hangisi olduğunu açıkça belirtmemiş ve fenotipik etkileri atlamıştır. Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, bir ekosistemdeki belirli seviyelerde kaç birimlik enerji olduğunu gösterir.",
+        "output": "Analiz: Öğrenci piramidin amacını doğru belirtmiş ancak enerji transferindeki verimlilik kaybı gibi temel detayları vermemiştir. Anlam benzerliği orta düzeydedir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri ATP üretirir ve hücreye enerji verir. Ribozom içerir.",
+        "output": "Analiz: Öğrenci mitokondrinin temel görevini (ATP/enerji) ve önemli bir yapısal özelliğini (ribozom) doğru belirtmiştir. Bağımsız DNA ve zar yapısı eksik olsa da verilen bilgiler doğrudur ve yüksek Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Hücre çevirimi, hasar görmüş hücrelerin öldürülme işlemidir ve organizmada düzen sağlamaya yardımcı olur.",
+        "output": "Analiz: Öğrenci, apoptosisin bir temizleme/düzenleme işlemi olduğunu ve hasarlı hücreleri hedeflediğini doğru kavramıştır. Ancak 'programlı ölüm' teknik terimini kullanmamış ve gelişimsel rollerden bahsetmemiştir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Her trofik seviyeye çıktıkça enerji miktarı azalır ve piramit oluşturulur.",
+        "output": "Analiz: Öğrenci, piramidin temel mantığını (enerji azalması ve şekil oluşumu) doğru özetlemiştir. Enerjinin trofik seviyelerdeki depo miktarı tanımı eksik olsa da işleyişi bildiğini göstermiştir. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler reaksiyonlarda katalist işlevi görürler.",
+        "output": "Analiz: Öğrenci enzimlerin genel tanımını yapmıştır ancak soruda spesifik olarak sorulan 'çalışma mekanizması'na (substrat birleşmesi, aktif bölge vb. Tanım doğru ama yetersizdir. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Açığa çıkan oksijen, su moleküllerinin ışık enerjisi tarafından parçalanmasıyla oluşur.",
+        "output": "Analiz: Öğrenci, hem kaynak molekülü (su) hem de mekanizmayı (ışıkla parçalanma/fotoliz) doğru bir şekilde ifade etmiştir. Doğru cevapla anlamsal örtüşme çok yüksektir. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA zinciri boyunca ilerleyerek yeni nükleotidleri ekleyerek DNA zinciri sentezleme işlemini yapıyor.",
+        "output": "Analiz: Öğrenci, enzimin birincil sentez görevini teknik olarak doğru açıklamıştır. Hata düzeltme (tamir) fonksiyonundan bahsetmemiştir ancak temel işlem tamdır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Besin zincirinde enerji miktarı her seviyede azalır ve bunu piramit gösterir.",
+        "output": "Analiz: Cevap, piramidin ana mantığını (azalan enerji ve grafiksel temsil) karşılamaktadır. Verimlilik oranı (%10 yasası) belirtilmemiş olsa da kavramsal olarak doğrudur. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, besin zincirinde seviyelere göre enerji dağılımını gösterir.",
+        "output": "Analiz: Öğrenci piramidin amacını 'dağılım göstermek' olarak tanımlamış, ancak en önemli unsur olan enerjinin yukarı doğru 'azalması' prensibine değinmemiştir. Tanım eksiktir. Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri ATP üretirir ve hücreye enerji verir. Ribozom içerir.",
+        "output": "Analiz: Öğrenci hem temel işlevi (ATP/enerji) hem de ayırt edici bir yapısal özelliği (ribozom) doğru belirtmiştir. Bilgiler teknik olarak doğrudur ve yüksek Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Hücre çevirimi, hasar görmüş hücrelerin öldürülme işlemidir ve organizmada düzen sağlamaya yardımcı olur.",
+        "output": "Analiz: Öğrenci sürecin biyolojik amacını (düzenleme ve hasarlı hücre imhası) doğru belirtmiştir. Terminolojik eksikliklere rağmen anlam korunmuştur. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Zar yapısındaki proteinler ve fosfolipitler, seçici geçirgenliği sağlarlar.",
+        "output": "Analiz: Öğrenci, doğru cevaptaki her iki ana bileşeni (proteinler ve fosfolipitler) doğru bir şekilde belirtmiştir. Mekanizmanın detaylı tarifi yapılmamış olsa da sorumlular doğrudur. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez, oksijen üretiminin yapıldığı bir işlemdir.",
+        "output": "Analiz: Öğrenci fotosentezin genel bir sonucunu belirtmiş ancak sorunun özü olan oksijenin 'kaynağına' (su/fotoliz) dair hiçbir bilgi vermemiştir. Puan: 0.15"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, ekosistem içerisinde enerji kaybını gösterir.",
+        "output": "Analiz: Öğrenci piramidin enerji kaybıyla olan ilişkisine doğru bir vurgu yapmış ancak trofik seviyeler ve yapısal özelliklere değinmemiştir. Tanım çok dar kapsamlıdır. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar hücrelerde protein yaparlar.",
+        "output": "Analiz: Öğrenci ribozomun ana görevini doğru bir dille ifade etmiştir. Mekanizmaya dair (mRNA okuma, tRNA etkileşimi) detaylar eksik olsa da temel işlev tamdır. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Protein kanalları ve taşıyıcı proteinleri seçici geçirgenliğe yardımcı olur.",
+        "output": "Analiz: Öğrenci, seçici geçirgenliği sağlayan temel protein yapılarını doğru tespit etmiştir. İşlem süreci ve fosfolipit etkisi eksik bırakılmıştır. Anlamsal benzerlik güçlüdür. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir, iki ardışık bölünme ile dört haploit cinsiyet hücresi oluşturur ve kromozom sayısı yarıya iner.",
+        "output": "Analiz: Öğrenci sorunun tüm parçalarına (nerede gerçekleştiği, nasıl olduğu ve ne sonuçlandığı) eksiksiz ve teknik olarak doğru yanıt vermiştir. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bireylerde gen çiftleri aynı, heterozigot da farklıdır.",
+        "output": "Analiz: Öğrenci temel kavramsal ayrımı doğru yapmıştır. Örneklendirme ve fenotip detayları olmasa da tanım özü itibarıyla doğrudur. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri sadece enerji üretimi yapan bir yapıdır.",
+        "output": "Analiz: Öğrenci temel işlevi bilmektedir fakat organelin yapısal zenginliğini ve genetik özelliklerini göz ardı eden 'sadece' kısıtlamasını kullanmıştır. Bilgi yetersizdir. Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen, H2O nin parçalanmasıyla ve ışık kullanılarak açığa çıkar. Bu işlem fotosentezin ışık bağımlı safhasında olur.",
+        "output": "Analiz: Öğrenci hem suyun parçalanmasını hem de ışığın rolünü doğru belirtmiş, üstüne bu işlemin evresini (ışığa bağımlı evre) ekleyerek kapsamlı bir yanıt vermiştir. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA zinciri boyunca ilerleyerek yeni nükleotidleri ekleyerek DNA zinciri sentezleme işlemini yapıyor.",
+        "output": "Analiz: Öğrenci enzimin temel polimerizasyon görevini doğru tanımlamıştır. Replikasyonun alt detayları ve hata düzeltme işlevi eksik olsa da birincil görev tam karşılanmıştır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondriler hücrelerin enerji fabrikaları olarak adlandırılır ve ATP üretim işlevi vardır.",
+        "output": "Analiz: Öğrenci mitokondrinin biyolojik rolünü (ATP üretimi) ve popüler tanımını doğru vermiştir. Yapısal detaylar eksik olsa da işlevsel tanım başarılıdır. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji akışı piramidi, ekosistemdeki trofik seviyelerde depo edilen enerji miktarını gösterir. Üreticiyle başlayıp her seviyeye çıkıldıkça enerji %90 oranında azalır.",
+        "output": "Analiz: Öğrenci, doğru cevaptaki tüm anahtar bilgileri (trofik seviyeler, enerji miktarı, üreticiden başlama ve %90 azalma oranı) eksiksiz bir şekilde ifade etmiştir. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot ve heterozigot, genlerin aynı ya da farklı olmasına göre sınıflandırılır.",
+        "output": "Analiz: Öğrenci temel ayrım noktasını (allellerin aynı veya farklı olması) doğru tespit etmiştir. Ancak hangi terimin hangi duruma karşılık geldiği ve baskınlık özellikleri belirtilmemiştir. Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz DNA sentezini sağlar.",
+        "output": "Analiz: Öğrenci en temel işlevi (sentez) doğru belirtmiştir. Ancak sentezin nasıl yapıldığı (nükleotid ekleme) ve hata düzeltme gibi kritik detaylar eksiktir. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar hücrelerde protein yaparlar.",
+        "output": "Analiz: Ribozomun temel fonksiyonu olan protein sentezi/yapımı doğru ifade edilmiştir. Alt birimler ve RNA etkileşimleri gibi detaylar bulunmamaktadır. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, diploit hücrelerde iki meiosis safhasında gerçekleşir ve cinsiy hücrelerini oluşturur.",
+        "output": "Analiz: Öğrenci bölünmenin başlangıç hücresini (diploit), safha sayısını ve sonuç hücrelerini (cinsiyet hücreleri) doğru belirtmiştir. Oluşan hücre sayısı ve haploitlik vurgusu eksiktir ancak genel süreç doğrudur. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri enerji taşıyıcı molekül olan ATP yi sentezler ve iç ile dış membranı vardır, ayrıca mitokondriyel DNA ve ribozom içerir.",
+        "output": "Analiz: Öğrenci doğru cevaptaki neredeyse tüm teknik detayları (ATP sentezi, çift zar yapısı, DNA ve ribozom varlığı) eksiksiz belirtmiştir. Oldukça kapsamlı ve doğru bir cevaptır. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler substrat ile birleşir, reaksiyonu hızlandırır ve ürün açığa çıkar.",
+        "output": "Analiz: Öğrenci enzim-substrat ilişkisini, katalizör işlevini ve ürün oluşumunu içeren mekanizmanın ana adımlarını doğru özetlemiştir. Aktif bölge ve kompleks terimleri eksik olsa da süreç doğrudur. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis sırasında gen alışverişi (crossing over) de gerçekleşir.",
+        "output": "Analiz: Öğrenci, mayoz bölünme ile ilgili doğru bir bilgi (crossing over) vermiştir ancak bu bilgi sorulan 'ne zaman gerçekleşir' ve 'hangi hücreleri oluşturur' sorularının doğrudan yanıtı değildir. Soru kapsamı dışındadır. Puan: 0.20"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar protein sentezinin yapıldığı yerlerdir.",
+        "output": "Analiz: Ribozomun temel tanımı ve protein sentezindeki rolü doğru bir şekilde verilmiştir. Yüksek Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez sırasında oksijen üretilir.",
+        "output": "Analiz: Öğrenci sadece genel bir olguyu belirtmiş, soruda spesifik olarak istenen oksijenin 'kaynağını' (su) açıklamamıştır. Cevap sorulan noktayı hedeflemediği için puan düşüktür. Puan: 0.10"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler, reaksiyonları başlatmadığı halde onları hızlandırırlar.",
+        "output": "Analiz: Öğrenci, enzimlerin genel bir biyolojik özelliğini belirtmiş ancak sorulan 'çalışma mekanizması' (substrat-enzim kompleksi, aktif bölge vb. Puan: 0.20"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA replikasyonunun en önemli enzimi olarak hareket eder.",
+        "output": "Analiz: Öğrenci, enzimin önemine vurgu yapmış ancak spesifik 'görevi' (nükleotid ekleme, sentez, hata düzeltme) hakkında teknik bir açıklama sunmamıştır. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler, hücresel reaksiyonları kontrol eden proteinlerdir.",
+        "output": "Analiz: Öğrenci enzimlerin kimyasal yapısını ve genel rolünü doğru tanımlamıştır. Ancak 'mekanizma' sorusuna yanıt olarak beklenen substrat etkileşimi ve aktif bölge detaylarına değinmemiştir. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar hücrelerde protein yaparlar.",
+        "output": "Analiz: Ribozomun temel fonksiyonu olan protein sentezi doğru bir şekilde belirtilmiştir. Mekanizmanın teknik detayları (mRNA okuma, tRNA) eksik olsa da temel görev tamdır. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar mRNA üzerindeki bilgileri okur ve amino asitleri bir araya getirerek proteinler oluşturur.",
+        "output": "Analiz: Öğrenci, ribozomun görevini oldukça detaylı ve doğru bir şekilde açıklamıştır. Hem bilgi okuma hem de amino asit birleştirme süreçlerine değinerek yüksek bir puanı hak etmektedir. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri, hücrelerde bazı metabolik işlemler yapar.",
+        "output": "Analiz: Cevap çok genel ve belirsizdir. Mitokondrinin en temel özelliği olan ATP/enerji üretiminden bahsedilmemiştir. Puan: 0.20"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondriler ATP üretimi yapan ve enerji sağlayan organellerdir. İç ve dış membrandan oluşur. Bu organelIerin kendi DNA ve ribozomu vardır.",
+        "output": "Analiz: Öğrenci, doğru cevaptaki tüm anahtar bilgileri (ATP üretimi, zar yapısı, kendine ait DNA ve ribozom) eksiksiz ve doğru bir şekilde sunmuştur. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar hücrelerde protein yaparlar.",
+        "output": "Analiz: Temel görev (protein sentezi) doğru ifade edilmiştir. Bilginin doğruluğu tam olsa da derinliği azdır. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Seçici geçirgenlik, zar üzerinde bulunan proteinler tarafından sağlanır.",
+        "output": "Analiz: Öğrenci seçici geçirgenliği sağlayan ana unsurlardan biri olan proteinleri doğru belirtmiştir. Ancak bu proteinlerin işleyişi (kanal/taşıyıcı) ve fosfolipitlerin rolüne değinmemiştir. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA zinciri boyunca ilerleyerek yeni nükleotidleri ekleyerek DNA zinciri sentezleme işlemini yapıyor.",
+        "output": "Analiz: Öğrenci, DNA polimerazın birincil görevi olan yeni nükleotid ekleme ve zincir sentezleme işlemini doğru bir şekilde tanımlamıştır. Hata düzeltme özelliğinden bahsedilmemiş olsa da temel işlev tamdır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar protein sentezini gerçekleştiren yapılardır. mRNA yi okur, tRNA dan amino asit alır ve protein oluşturur.",
+        "output": "Analiz: Öğrenci, ribozomun temel işlevini ve çalışma mekanizmasını (mRNA okuma ve tRNA etkileşimi) oldukça net ve doğru bir şekilde açıklamıştır. Teknik terimler ve süreç akışı doğru cevaba çok yakındır. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Zar yapısındaki proteinler ve fosfolipitler, seçici geçirgenliği sağlarlar.",
+        "output": "Analiz: Öğrenci, seçici geçirgenlikten sorumlu olan iki ana yapısal bileşeni (proteinler ve fosfolipitler) doğru belirtmiştir. Ancak bu yapıların nasıl çalıştığına dair detaylı bilgi eksiktir. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Protein kanalları ve taşıyıcı proteinleri seçici geçirgenliğe yardımcı olur.",
+        "output": "Analiz: Öğrenci, zar üzerindeki spesifik protein yapılarını (kanal ve taşıyıcı) doğru vurgulamıştır. Fosfolipitlerin rolü belirtilmemiş olsa da en kritik faktörler cevapta yer almaktadır. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot sadece bir çeşit gamet oluştururken, heterozigot iki çeşit gamet oluşturur.",
+        "output": "Analiz: Öğrenci, genotiplerin tanımlarını yapmak yerine bu genotiplerin gamet oluşumu üzerindeki dolaylı bir sonucunu belirtmiştir. Bilgi genetik olarak doğru olsa da doğrudan bir tanım değildir ve eksiktir. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA replikasyonunu kataliz eder.",
+        "output": "Analiz: Öğrenci, enzimin çok genel bir fonksiyonunu (katalizör olma) ifade etmiştir. Ancak sorulan 'görevi'ne dair spesifik bir işlem (sentez, nükleotid ekleme) belirtilmemiştir. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, diploit hücrelerde iki meiosis safhasında gerçekleşir ve cinsiy hücrelerini oluşturur.",
+        "output": "Analiz: Öğrenci, mayozun temel aşamalarını ve sonuç hücrelerini (cinsiyet hücreleri) doğru kavramıştır. Oluşan hücre sayısı ve kromozom durumuna dair detaylar eksik olsa da süreç genel olarak doğrudur. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Zar yapısı, belirli maddelerin sadece geçişine izin veren bir özelliğe sahiptir.",
+        "output": "Analiz: Öğrenci, seçici geçirgenliğin tanımını yapmış ancak bu özelliğin 'nasıl sağlandığına' (proteinler, fosfolipitler) dair hiçbir yapısal açıklama yapmamıştır. Tanım doğru fakat cevap yetersizdir. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez sırasında su molekülleri parçalanarak oksijen açığa çıkar ve enerji üretilir.",
+        "output": "Analiz: Öğrenci, oksijenin kaynağını (su) ve oluşum şeklini (parçalanma) doğru ifade etmiştir. 'Enerji üretilir' ifadesi fotosentezin geneli için doğru olsa da oksijen çıkışıyla doğrudan bağdaştırılması hafif bir karmaşa yaratsa da cevap başarılıdır. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot fenotip saf, heterozigot hibrid fenotipi oluşturur.",
+        "output": "Analiz: Öğrenci, terimleri tanımlamak yerine genotiplerin oluşturduğu fenotip tiplerinden bahsetmiştir. Saf/Arı döl ve Melez döl kavramlarına atıfta bulunsa da teknik tanım (allel benzerliği) eksik kalmıştır. Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri enerji taşıyıcı molekül olan ATP yi sentezler ve iç ile dış membranı vardır, ayrıca mitokondriyel DNA ve ribozom içerir.",
+        "output": "Analiz: Öğrenci, mitokondrinin hem fonksiyonel (ATP sentezi) hem de yapısal (çift zar, DNA, ribozom) özelliklerini tam ve doğru olarak belirtmiştir. Mükemmel bir cevaptır. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen, H2O nin parçalanmasıyla ve ışık kullanılarak açığa çıkar. Bu işlem fotosentezin ışık bağımlı safhasında olur.",
+        "output": "Analiz: Öğrenci, oksijenin kaynağını (H2O), gerekli olan girdiyi (ışık) ve gerçekleştiği evreyi (ışığa bağımlı safha) doğru şekilde belirtmiştir. Bilimsel doğruluk tamdır. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis bölünmesi haploit hücreler üretir.",
+        "output": "Analiz: Öğrenci, mayozun sadece sonuç hücrelerinin niteliğini (haploit) belirtmiştir. Nerede gerçekleştiği ve sürecin nasıl işlediği gibi anahtar kısımlar eksiktir. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Programlı hücre ölümü apoptosis olarak adlandırılır ve organizmada önemli bir işlev görür.",
+        "output": "Analiz: Öğrenci temel tanımı doğru yapmıştır. Ancak 'ne zaman' meydana geldiğine dair (hasarlı/enfekte hücreler) spesifik durumları belirtmemiştir. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri ATP üreterek hücreye enerji sağlar ve çok sayıda bulunur.",
+        "output": "Analiz: İşlevsel tanım ve sıklık durumu doğru verilmiştir. Yapısal özellikler (membran, DNA, ribozom) eksiktir. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis hücrelerin yapılan bir kontrol mekanizmasıdır.",
+        "output": "Analiz: Cevap apoptosisin doğasına dair dolaylı bir yorum içerse de 'programlı ölüm' tanımını ve zamanlamasını içermediği için yetersizdir. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, cinsiyet hücrelerinde meydana gelir ve dört haploit hücre oluşturur.",
+        "output": "Analiz: Öğrenci, hem nerede gerçekleştiğini hem de sonuç hücrelerinin sayısını ve tipini doğru belirtmiştir. Süreç detayları (diploit başlangıç vb. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis bölünmesi haploit hücreler üretir.",
+        "output": "Analiz: Yanıt çok kısıtlıdır. Sadece sonuç hücresinin bir özelliğine değinilmiştir, sorunun 'ne zaman' kısmına yanıt verilmemiştir. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri sadece enerji üretimi yapan bir yapıdır.",
+        "output": "Analiz: Öğrenci sadece ana görevi bilmektedir ve 'sadece' diyerek yapısal özellikleri dışlamıştır. Bilgi seviyesi düşüktür. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Açığa çıkan oksijen, su moleküllerinin ışık enerjisi tarafından parçalanmasıyla oluşur.",
+        "output": "Analiz: Öğrenci fotoliz mekanizmasını (su + ışık enerjisi) tam olarak tanımlamıştır. 'Fotoliz' terimi kullanılmasa da açıklama teknik olarak doğrudur. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bir gen için iki aynı allele sahip (AA, aa); heterozigot iki farklı allelе sahip (Aa), heterozigotlarda dominant allelel fenotipte görülür.",
+        "output": "Analiz: Öğrenci tüm teknik tanımları, örnekleri ve dominantlık kuralını doğru bir şekilde sunmuştur. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler reaksiyonlarda katalist işlevi görürler.",
+        "output": "Analiz: Öğrenci enzimlerin genel rolünü belirtmiş ancak 'mekanizmaya' (substrat kompleksi, aktif bölge) dair hiçbir açıklama yapmamıştır. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar hücrelerde protein yaparlar.",
+        "output": "Analiz: Ribozomun protein sentezi görevini bildiği açıktır ancak protein zinciri oluşum süreci eksiktir. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri ATP üreterek hücreye enerji sağlar ve çok sayıda bulunur.",
+        "output": "Analiz: Görev ve bulunma sıklığı doğru belirtilmiş, yapısal detaylar eksik kalmıştır. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot bireylerde gen çiftleri aynı, heterozigot da farklıdır.",
+        "output": "Analiz: Allel benzerliği/farklılığı vurgusu temel düzeyde doğrudur. Örnekleme ve fenotip yansıması eksiktir. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen, ışık reaksiyonları sırasında su moleküllerinden açığa çıkar.",
+        "output": "Analiz: Öğrenci oksijenin kaynağını (su) ve evresini doğru belirtmiştir. Mekanizma detayları (fotoliz/parçalanma) yüzeyseldir. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzim ve substrat birleşir, kompleks oluşur, sonra ürün açığa çıkar ve enzim tekrar boşa çıkar.",
+        "output": "Analiz: Öğrenci çalışma döngüsünü (kompleks, ürün, enzimin serbest kalması) doğru ve sıralı şekilde özetlemiştir. Aktif bölge terimi eksiktir. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis meydana gelip hasar görmüş hücreler yok olur.",
+        "output": "Analiz: Öğrenci apoptosisin sonucunu ve temel bir oluşma nedenini (hasarlı hücreler) belirtmiştir. 'Programlı ölüm' tanımı eksik kalsa da mantık doğrudur. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: AA ve aa homozigot, Aa ise heterozigot genotiptir.",
+        "output": "Analiz: Öğrenci tanım yapmak yerine sadece sembolik örnekler vermiştir. Kavramsal açıklama bulunmamaktadır. Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis sırasında gen alışverişi (crossing over) de gerçekleşir.",
+        "output": "Analiz: Verilen bilgi (crossing over) mayoz için doğrudur ancak sorunun (ne zaman ve hangi hücreler) yanıtı değildir. Alakasız bilgi statüsündedir. Puan: 0.15"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Seçici geçirgenlik, zar üzerindeki protein kanalları ile kontrol edilir.",
+        "output": "Analiz: Öğrenci seçici geçirgenliği sağlayan ana mekanizmalardan birini (protein kanalları) doğru belirtmiştir. Fosfolipit etkisi ve taşıyıcı proteinler eksiktir. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar protein sentezinin yapıldığı yerlerdir.",
+        "output": "Analiz: Öğrenci, ribozomun en temel görevini doğru bir şekilde belirtmiştir. Ancak sentez sürecindeki mRNA ve tRNA etkileşimleri gibi mekanik detaylara değinmemiştir. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri ATP üreterek hücreye enerji sağlar ve çok sayıda bulunur.",
+        "output": "Analiz: Öğrenci, mitokondrinin temel işlevini (ATP üretimi) ve hücredeki dağılımını doğru ifade etmiştir. Organelin çift katlı zar yapısı ve kendine has genetik materyali (DNA, ribozom) gibi kritik yapısal özellikler eksiktir. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Seçici geçirgenlik, zar üzerindeki protein kanalları ve taşıyıcı proteinler tarafından sağlanır. Bu proteinler belirli maddelerin geçişini kontrol eder.",
+        "output": "Analiz: Öğrenci, seçici geçirgenlikte rol oynayan ana protein yapılarını (kanal ve taşıyıcı) ve işlevlerini doğru bir şekilde açıklamıştır. Sadece fosfolipitlerin bu süreçteki katkısı eksik kalmıştır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Hücre çevirimi hücrelerin ölümüdür.",
+        "output": "Analiz: Öğrenci apoptosis kavramını genel bir \"ölüm\" olarak nitelendirmiş ancak bu sürecin en önemli özelliği olan \"programlı/kontrollü\" olma durumuna ve hangi durumlarda (hasar, enfeksiyon vb. Puan: 0.20"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler, substratları ürüne dönüştüren proteinlerdir.",
+        "output": "Analiz: Öğrenci enzimlerin tanımını ve genel işlevini doğru yapmıştır. Ancak sorulan \"mekanizma\" (kompleks oluşumu, aktif bölge kullanımı) hakkında teknik bir açıklama sunmamıştır. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Mayoz bölünme, dört gamет oluşturur ve hücrenin kromozom sayısı yarıya iner.",
+        "output": "Analiz: Öğrenci mayoz bölünmenin sonucunda oluşan hücre sayısını ve genetik sonucu (kromozom sayısının yarıya inmesi) doğru belirtmiştir. Ancak bu sürecin nerede gerçekleştiği bilgisi eksiktir. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez sırasında su molekülleri parçalanarak oksijen açığa çıkar ve enerji üretilir.",
+        "output": "Analiz: Öğrenci oksijenin suyun parçalanmasıyla oluştuğunu doğru bir şekilde belirtmiştir. \"Enerji üretilir\" ifadesi fotosentezin genel süreci için geçerli olsa da oksijen çıkışıyla olan doğrudan mekanik bağlamda fotoliz vurgusu başarılıdır. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Seçici geçirgenlik, zar üzerindeki protein kanalları ve taşıyıcı proteinler tarafından sağlanır. Bu proteinler belirli maddelerin geçişini kontrol eder.",
+        "output": "Analiz: Cevap, zar üzerindeki proteinlerin fonksiyonel rolünü doğru bir şekilde yakalamıştır. Teknik terimler yerindedir. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar protein sentezini gerçekleştiren yapılardır. mRNA yi okur, tRNA dan amino asit alır ve protein oluşturur.",
+        "output": "Analiz: Öğrenci, ribozomun hem sentezdeki rolünü hem de moleküler düzeydeki işleyişini (mRNA ve tRNA ile olan ilişkisi) oldukça kapsamlı ve doğru şekilde özetlemiştir. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis bölünmesi haploit hücreler üretir.",
+        "output": "Analiz: Öğrenci sadece sonuç hücrelerinin ploidi düzeyini (haploit) belirtmiştir. Sorunun \"ne zaman/nerede\" kısmına ve hücre sayısına dair bilgi eksiktir. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz deoksinükleotidleri tek tek ekleyerek DNA zincirini sentezler ve hata tamir işlevi de vardır.",
+        "output": "Analiz: Öğrenci, enziminin temel işleyişini (nükleotid ekleme) ve ikincil önemli görevi olan hata düzeltmeyi (tamir) doğru bir şekilde ifade etmiştir. Oldukça başarılı bir cevaptır. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez sırasında su molekülleri parçalanarak oksijen açığa çıkar ve enerji üretilir.",
+        "output": "Analiz: Öğrenci, oksijenin suyun parçalanması sonucu oluştuğunu doğru bir şekilde tespit etmiştir. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar protein sentezini gerçekleştiren yapılardır. mRNA yi okur, tRNA dan amino asit alır ve protein oluşturur.",
+        "output": "Analiz: Öğrenci, ribozomun işlevini moleküler süreçlerle (mRNA ve tRNA rolleri) birlikte doğru açıklamıştır. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Seçici geçirgenlik, zar üzerindeki protein kanalları ile kontrol edilir.",
+        "output": "Analiz: Öğrenci mekanizmanın önemli bir parçasını (protein kanalları) belirtmiş olsa da taşıyıcı proteinler ve fosfolipit tabakasının rolü eksik kalmıştır. Puan: 0.60"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler reaksiyonları hızlandıran katalizörlerdir.",
+        "output": "Analiz: Cevap doğru bir tanım içermektedir ancak çalışma \"mekanizması\" (substrat etkileşimi vb. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Üreticiyle başlayan piramitte, tüketicilere gittikçe enerji azalır.",
+        "output": "Analiz: Öğrenci enerji akışının yönünü ve azalma eğilimini doğru anlamıştır. Ancak trofik seviyeler ve piramit şeklinin sayısal nedeni (%10 yasası) gibi detaylara girmemiştir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen this işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez, oksijen üretiminin yapıldığı bir işlemdir.",
+        "output": "Analiz: Öğrenci oksijenin \"nereden\" kaynaklandığına (H2O/Su) dair bir cevap vermemiş, sadece fotosentezde oksijen üretildiğini tekrarlamıştır. Sorunun asıl amacına hizmet etmeyen bir cevaptır. Puan: 0.10"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Mayoz bölünme, üreme hücrelerinde iki ardışık bölünme ile dört hücre oluşturur.",
+        "output": "Analiz: Öğrenci hem gerçekleştiği yeri hem de bölünme sayısını ve sonucunda oluşan hücre miktarını doğru belirtmiştir. Sadece hücrelerin genetik durumu (haploit/n) belirtilmemiştir. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, ekosistem içerisinde enerji kaybını gösterir.",
+        "output": "Analiz: Öğrenci piramidin gösterdiği temel olgulardan birini (enerji kaybı) belirtmiş ancak piramidin yapısını ve trofik seviye ilişkisini açıklamamıştır. Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen kloroplastlarda üretilir.",
+        "output": "Analiz: Öğrenci oksijenin kaynağını (moleküler köken) sormamıza rağmen sadece organel düzeyinde bir yer belirtmiştir. Bu bilgi doğru olsa da sorunun \"kaynak\" (su) kısmına yanıt değildir. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Seçici geçirgenlik, zar üzerinde bulunan proteinler tarafından sağlanır.",
+        "output": "Analiz: Öğrenci, seçici geçirgenlikten sorumlu ana yapı birimini (proteinler) doğru teşhis etmiştir. Ancak proteinlerin spesifik türleri (kanal ve taşıyıcı) ve fosfolipit tabakasının rolü gibi detaylar eksiktir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji akışı piramidi, ekosistemdeki trofik seviyelerde depo edilen enerji miktarını gösterir. Üreticiyle başlayıp her seviyeye çıkıldıkça enerji %90 oranında azalır.",
+        "output": "Analiz: Öğrenci, enerji piramidinin tanımını ve temel çalışma prensibini (%90 kayıp/azalma kuralı) eksiksiz bir şekilde ifade etmiştir. Doğru cevapla anlamsal benzerlik oldukça yüksektir. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, ekosistem içerisinde enerji kaybını gösterir.",
+        "output": "Analiz: Öğrenci piramidin temel sonucuna (enerji kaybı) değinmiştir ancak trofik seviyeler, üreticiden başlayarak ilerleme ve piramit formunun sayısal nedeni gibi açıklayıcı unsurları atlamıştır. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar, mRNA üzerindeki genetik kodu okuyup protein yapımını sağlarlar.",
+        "output": "Analiz: Öğrenci, ribozomun mRNA okuma ve protein sentezleme işlevini doğru bir şekilde özetlemiştir. tRNA'nın amino asit taşıma rolü ve ribozomun yapısal (alt birim) özelliklerinden bahsedilmemiştir. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler reaksiyonlarda katalist işlevi görürler.",
+        "output": "Analiz: Öğrenci sadece enzimlerin genel biyolojik fonksiyonunu belirtmiştir. Soruda istenen \"mekanizma\" (substratla birleşme, kompleks oluşumu, aktif bölge) hakkında bilgi verilmemiştir. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis programlı hücre ölümüdür.",
+        "output": "Analiz: Öğrenci apoptosisin en temel bilimsel tanımını (programlı hücre ölümü) yapmıştır. Ancak sorunun ikinci kısmı olan \"ne zaman\" meydana geldiğine (hasarlı/enfekte hücreler) yanıt vermemiştir. Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA zinciri boyunca ilerleyerek yeni nükleotidleri ekleyerek DNA zinciri sentezleme işlemini yapıyor.",
+        "output": "Analiz: Öğrenci, enzimin birincil sentezleme görevini (nükleotid ekleme) doğru bir şekilde açıklamıştır. Hata düzeltme (proofreading) yeteneğinden bahsedilmemiştir ancak temel mekanizma iyi anlatılmıştır. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Fotosentez sırasında su molekülleri parçalanarak oksijen açığa çıkar ve enerji üretilir.",
+        "output": "Analiz: Öğrenci oksijenin kaynağını (su) ve sürecini (parçalanma) doğru tespit etmiştir. \"Enerji üretilir\" kısmı genel fotosentez bağlamında doğru olsa da odağın suyun fotolizi olması puanı artırmaktadır. Puan: 0.95"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis hücrelerin yapılan bir kontrol mekanizmasıdır.",
+        "output": "Analiz: Öğrenci, apoptosisin bir kontrol mekanizması olduğunu dolaylı olarak bilmektedir ancak ne \"ölüm\" tanımını ne de spesifik oluşma şartlarını belirtmiştir. Cevap çok yüzeyseldir. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Üreticiyle başlayan piramitte, tüketicilere gittikçe enerji azalır.",
+        "output": "Analiz: Öğrenci enerji akışının yönünü (üreticiden tüketiciye) ve temel karakterini (azalma) doğru anlamıştır. Ancak teknik terimler ve %90 kayıp gibi somut veriler eksiktir. Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot, aynı allelleri taşır (AA, aa). Heterozigot, farklı allelleri taşır (Aa).",
+        "output": "Analiz: Öğrenci her iki kavramın temel tanımını ve sembolik gösterimlerini doğru yapmıştır. Sadece heterozigot durumundaki fenotip yansıması (dominant/resesif ilişkisi) eksik bırakılmıştır. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir, iki ardışık bölünme ile dört haploit cinsiyet hücresi oluşturur ve kromozom sayısı yarıya iner.",
+        "output": "Analiz: Öğrenci, mayozun nerede gerçekleştiğini, kaç hücre oluşturduğunu, hücrelerin niteliğini ve kromozom sayısındaki değişimi tam olarak doğru ifade etmiştir. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre zarının seçici geçirgenliği nasıl sağlanır?\nDoğru Cevap: Hücre zarının seçici geçirgenliği, zar üzerinde bulunan protein kanalları ve taşıyıcı proteinleri tarafından sağlanır. Bu proteinler bazı maddelerin zar aracılığıyla geçişine izin verirken, diğerlerini engeller. Ayrıca zar yapısındaki fosfolipitlerin seçici yapısı da rol oynar.\nÖğrenci Cevabı: Hücre zarı sadece bazı maddelerin geçişine izin verir.",
+        "output": "Analiz: Öğrenci sadece seçici geçirgenliğin tanımını yapmıştır. Soruda sorulan bu durumun \"nasıl\" (proteinler ve fosfolipitler aracılığıyla) sağlandığına dair bir bilgi içermemektedir. Puan: 0.20"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzim ve substrat birleşir, kompleks oluşur, sonra ürün açığa çıkar ve enzim tekrar boşa çıkar.",
+        "output": "Analiz: Öğrenci enzimin katalitik döngüsünü (bağlanma, kompleks, ürün salınımı) oldukça net ve doğru bir şekilde özetlemiştir. Aktif bölge terimi eksik olsa da mekanizma iyi anlaşılmıştır. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA replikasyonunun en önemli enzimi olarak hareket eder.",
+        "output": "Analiz: Öğrenci enzimin önemini vurgulamış ancak enzimin ne iş yaptığına (nükleotid ekleme, sentez, hata düzeltme) dair somut bir görev tanımı yapmamıştır. Puan: 0.15"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Mayoz bölünme, üreme hücrelerinde iki ardışık bölünme ile dört hücre oluşturur.",
+        "output": "Analiz: Gerçekleştiği hücre tipi ve oluşan hücre sayısı doğrudur. Ancak oluşan hücrelerin haploit (n) olduğu bilgisi verilmemiştir. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondriler ATP üretimi yapan ve enerji sağlayan organellerdir. İç ve dış membrandan oluşur. Bu organelIerin kendi DNA ve ribozomu vardır.",
+        "output": "Analiz: Öğrenci mitokondrinin işlevsel, yapısal ve genetik özelliklerinin neredeyse tamamını doğru bir şekilde ifade etmiştir. Puan: 1.0"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Fotosentez sırasında üretilen oksijen nereden kaynaklanmaktadır?\nDoğru Cevap: Fotosentez sırasında üretilen oksijen, su (H2O) molekülünün fotoliziyle kaynaklanır. Işık reaksiyonları da olarak bilinen bu işlemde, ışık enerjisi kullanılarak su molekülleri parçalanır ve oksijen açığa çıkar.\nÖğrenci Cevabı: Oksijen, fotosentez sırasında su molekülünün parçalanmasıyla üretilir.",
+        "output": "Analiz: Öğrenci oksijenin kaynağını (su) ve oluşum şeklini (parçalanma) doğru tespit etmiştir. Cevap kısa olsa da bilimsel özü tam yansıtmaktadır. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz DNA sentezini sağlar.",
+        "output": "Analiz: Öğrenci enzimin en temel işlevini doğru söylemiştir ancak bu işlemin nasıl yapıldığına (nükleotid ekleme) ve ek özelliklerine (hata düzeltme) değinmemiştir. Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Hücre çevirimi hücrelerin ölümüdür.",
+        "output": "Analiz: Cevap apoptosisin kontrollü/programlı doğasını içermediği ve nedenlerine (hasar vb. Puan: 0.15"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozom mRNA yi okur, tRNA dan yardım alır ve protein sentezini gerçekleştirir.",
+        "output": "Analiz: Öğrenci, ribozomun mRNA okuma ve tRNA ile etkileşime girerek protein sentezleme işlevini doğru bir şekilde kavramıştır. Ribozomun yapısal özellikleri (alt birimler) dışında sürecin mekanik özünü başarıyla özetlemiştir. Puan: 0.85"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz DNA yi kopyalayan bir enzimdir.",
+        "output": "Analiz: Öğrenci, enzimin genel fonksiyonunu (kopyalama/replikasyon) doğru bilmektedir. Ancak sorulan spesifik \"görev\" detayları (nükleotid ekleme mekanizması ve hata düzeltme) cevapta yer almamaktadır. Puan: 0.40"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar hücrelerde protein yaparlar.",
+        "output": "Analiz: Cevap ribozomun temel görevini belirtse de, biyolojik mekanizmaya (mRNA, tRNA, amino asit dizilimi) dair hiçbir teknik detay içermemektedir. Çok yüzeysel bir tanım niteliğindedir. Puan: 0.35"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Hücre çevirimi, hasar görmüş hücrelerin öldürülme işlemidir ve organizmada düzen sağlamaya yardımcı olur.",
+        "output": "Analiz: Öğrenci, sürecin amacını (hasarlı hücrelerin temizlenmesi, organizma düzeni) doğru açıklamıştır. \"Hücre çevirimi\" terimi soruda geçse de asıl teknik terim olan apoptosisin \"programlı/kontrollü\" olma özelliğine vurgu yapılması cevabı güçlendirirdi. Puan: 0.70"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler substrat ile birleşir, reaksiyonu hızlandırır ve ürün açığa çıkar.",
+        "output": "Analiz: Öğrenci enzim-substrat etkileşimini ve katalitik süreci (hızlandırma, ürün oluşumu) doğru bir akışla özetlemiştir. Aktif bölge ve enzimin reaksiyon sonunda değişmeden çıkması gibi teknik detaylar eksiktir. Puan: 0.80"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler reaksiyonları hızlandıran katalizörlerdir.",
+        "output": "Analiz: Cevap doğru bir tanım olsa da \"mekanizma\" sorusuna yanıt vermemektedir. Enzimlerin substratla nasıl birleştiği veya süreci nasıl yürüttüğü açıklanmamıştır. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enzimlerin çalışma mekanizması nasıldır?\nDoğru Cevap: Enzimler, substratla substrat-enzim kompleksi oluşturarak hücresel reaksiyonları katalize ederler. Enzim, substratın gerekli transformasyonunu sağlayana sonra ürün açığa çıkar ve enzim orijinal durumuna dönüyor. Bu proceso aktif bölge (active site) üzerinde gerçekleşir.\nÖğrenci Cevabı: Enzimler, reaksiyonları başlatmadığı halde onları hızlandırırlar.",
+        "output": "Analiz: Öğrenci enzimlerin önemli bir özelliğini (başlamış reaksiyonu hızlandırma) belirtmiştir ancak mekanizmaya (substrat etkileşimi vb. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri ATP üretirir ve hücreye enerji verir. Ribozom içerir.",
+        "output": "Analiz: Öğrenci mitokondrinin temel görevini (ATP/enerji) ve kendine has yapılarından biri olan ribozomu doğru belirtmiştir. Çift zar yapısı ve DNA varlığına değinilmemiştir. Puan: 0.65"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Hücre çevirimi (Apoptosis) nedir ve ne zaman meydana gelir?\nDoğru Cevap: Apoptosis, hücrenin programlı ölümü olarak tanımlanır. Hasar görmüş, enfekte olmuş veya artık gerekli olmayan hücreler kontrollü bir şekilde öl ür. Canlı organizmalarda hücre sayısı düzenlemek ve organ gelişiminde önemlidir.\nÖğrenci Cevabı: Apoptosis hücrelerin kontrollü şekilde ölümüdür ve hasar görmüş hücreler bu yolla silinir.",
+        "output": "Analiz: Öğrenci hem apoptosisin tanımını (kontrollü ölüm) hem de gerçekleşme nedenlerinden birini (hasarlı hücreler) doğru ifade etmiştir. Bilimsel doğruluk yüksektir. Puan: 0.90"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Üreticiyle başlayan piramitte, tüketicilere gittikçe enerji azalır.",
+        "output": "Analiz: Enerji akışının temel prensibi (azalma) ve başlangıç noktası doğru belirtilmiştir. Ancak trofik seviye kavramı ve %10 yasasına (veya %90 kayıp) dair teknik bir veri sunulmamıştır. Puan: 0.50"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dörthaploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis, cinsiyet hücrelerinde meydana gelir ve dört haploit hücre oluşturur.",
+        "output": "Analiz: Öğrenci mayozun nerede gerçekleştiğini ve sonucunda kaç adet haploit hücre oluştuğunu doğru ifade etmiştir. Bölünme sayısı ve kromozom sayısı değişimi gibi süreç detayları eksiktir. Puan: 0.75"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: DNA replikasyonunda DNA polimeraz enziminin görevi nedir?\nDoğru Cevap: DNA polimeraz, DNA replikasyonu sırasında ana zincir (leading strand) ve geç zincir (lagging strand) üzerine deoksinükleotid birimleri ekleyerek yeni DNA zincirini sentezler. Ayrıca oluşan hataları düzeltme özelliğine sahiptir.\nÖğrenci Cevabı: DNA polimeraz, DNA replikasyonunun en önemli enzimi olarak hareket eder.",
+        "output": "Analiz: Öğrenci enzimin önemini vurgulasa da fonksiyonel bir görev tanımı yapmamıştır. \"Replikasyonda görev alır\" demek soruyu tekrarlamaktır. Puan: 0.15"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Meiosis ne zaman gerçekleşir ve hangi hücreler oluşturur?\nDoğru Cevap: Meiosis, üreme hücrelerinde (germ cells) gerçekleşir ve dört haploit (n) cinsiy hücresi (gamет) oluşturur. Mayoz bölünme, diploit hücreden başlayarak iki meiosis bölünmesi ile gerçekleşir ve kromozom sayısı yarıya iner.\nÖğrenci Cevabı: Meiosis üreme hücrelerinde olur.",
+        "output": "Analiz: Öğrenci sorunun sadece \"ne zaman/nerede\" kısmına kısmi cevap vermiş, oluşan hücrelerin sayısına ve yapısına hiç değinmemiştir. Eksik bir cevaptır. Puan: 0.30"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Mitokondri hakkında bilgi veriniz.\nDoğru Cevap: Mitokondri, hücrelerde ATP üretimi yapan ve enerji üretimine yardımcı olan bir organeldir. İç ve dış membranı vardır. Bağımsız DNA ve ribozom içerir. Özellikle enerji ihtiyacı yüksek olan hücrelerde çok sayıda bulunur.\nÖğrenci Cevabı: Mitokondri hücrelerde enerji üretmesi için çalışan bir organeldir.",
+        "output": "Analiz: Öğrenci mitokondrinin temel biyolojik amacını (enerji üretimi) doğru belirtmiştir. Ancak organelin yapısal özellikleri ve genetik bağımsızlığına dair bilgi vermemiştir. Puan: 0.45"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Enerji akışı (su akışı) piramidi nedir?\nDoğru Cevap: Enerji akışı piramidi, bir ekosistemdeki trofik seviyelerde (besin zincirinde) depo edilen enerji miktarını gösterir. Üreticilerden başlayarak her trofik seviyeye çıkıldıkça enerji miktarı %90 oranında azalır. Bu nedenle piramit şekil alır.\nÖğrenci Cevabı: Enerji piramidi, ekosistem içerisinde enerji kaybını gösterir.",
+        "output": "Analiz: Öğrenci piramidin sonucuna (kayıp) değinmiş ancak mekanizmasını ve yapısını açıklamamıştır. Yetersiz bir cevaptır. Puan: 0.25"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Heterozigot ve homozigot genotipler nedir?\nDoğru Cevap: Homozigot, bir gen için aynı allelleri taşıyan organizmadır (AA veya aa). Heterozigot, bir gen için farklı allelleri taşıyan organizmadır (Aa). Heterozigot bireylerde, dominant allel fenotipte görülür, resesif allel saklanır.\nÖğrenci Cevabı: Homozigot ve heterozigot, genlerin aynı ya da farklı olmasına göre sınıflandırılır.",
+        "output": "Analiz: Öğrenci kavramların temel ayrım noktasını (aynı/farklı olma) doğru yakalamıştır. Ancak tanımları bilimsel bir dille (allel kavramı kullanarak) derinleştirmemiş ve fenotip etkisinden bahsetmemiştir. Puan: 0.55"
+    },
+    {
+        "instruction": "Öğrenci cevabını analiz et, 0.0-1.0 arasında bir puan ver.",
+        "input": "Soru: Protein sentezinde ribozomlun rolü nedir?\nDoğru Cevap: Ribozomlar protein sentezinin meydana geldiği yerlerdir. mRNA üzerindeki kodları okuya ve tRNA tarafından getirilen amino asitleri bir araya getirerek protein zinciri oluştururlar. Ribosom iki alt birimden oluşur.\nÖğrenci Cevabı: Ribozomlar, mRNA üzerindeki genetik kodu okuyup protein yapımını sağlarlar.",
+        "output": "Analiz: Öğrenci ribozomun mRNA ile olan ilişkisini ve ana görevini doğru bir şekilde eşleştirmiştir. tRNA ve yapısal detaylar eksik olsa da işlevsel tanım başarılıdır. Puan: 0.75"
+    }
+]
