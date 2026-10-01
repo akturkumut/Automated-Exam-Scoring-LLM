@@ -62,7 +62,7 @@ Automated-Exam-Scoring-LLM/
 ├── app/              # Mobile application
 ├── docs/             # Thesis (Turkish)
 ├── src/
-│   ├── backend pipeline notebook (.ipynb)     # OCR → SBERT → LLM scoring backend
+│   ├── backend-pipeline # OCR → SBERT → LLM scoring backend
 │   ├── datasets (with / without SBERT features)
 │   ├── fine-tuning notebooks (.ipynb)         # one with SBERT features, one without
 │   ├── SBERT similarity computation           # adds simQS / simSC to the dataset
@@ -72,7 +72,6 @@ Automated-Exam-Scoring-LLM/
 └── README.md
 ```
 
-> TODO: replace the descriptive names above with the exact file names in `src/`.
 
 ## Getting Started
 
